@@ -1,3 +1,4 @@
+package ep;
 import java.util.Scanner;
 
 public class InteirosBinarios{
