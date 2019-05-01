@@ -12,6 +12,11 @@ public class Booth {
 	public int[] produtoBinario;
 
 	public int toDecimal(int[] binario) {
+		int decimal = 0;
+		int aux = 1;
+		for (int i = binario.length - 1; i > 0; i++) {
+			decimal += aux * binario[i];
+		}
 		return 0;
 	}
 
